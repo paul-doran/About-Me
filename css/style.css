@@ -11,9 +11,9 @@ font-family: 'Merriweather', serif;
 
 h1 {
 font-size: 5.625rem; /**normal em =16px 90px=5.625em**/
-  margin: 50px auto 0 auto;
+  margin: 350px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #205375;
   line-height: 2;
 
 
@@ -22,14 +22,15 @@ font-size: 5.625rem; /**normal em =16px 90px=5.625em**/
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #66BFBF;
+    color: #205375;
     font-weight: normal;
     padding-bottom: 10px;
+    margin-top: 0;
   }
 
   h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #5C8FB1;
 
   }
 
@@ -40,12 +41,12 @@ p {
 }
 
 a {
-  color: #11999E;
+  color: #98CBED;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 a:hover {
-  color: #EAF6F6;
+  color: #EFEFEF;
 
 }
 
@@ -67,33 +68,41 @@ text-align: left;
 
 
 .top_container {
-background-color: #EAF6F6;
+
 position: relative;
-padding-top: 100px;
+padding-top: 200px;
+
+}
+
+.back-image {
+  position: absolute;
+  width: 100%;
+  top: -350px;
+  left: 0;
+  opacity: 0.5;
 
 }
 
 .middle-container {
   padding-bottom: 40px;
+  padding-top: 250px;
+
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #205375;
   padding: 50px 0 20px;
 }
 
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+.Logo {
+  display: block;
+height: 180px;
+margin-left: auto;
+margin-right: auto;
+opacity: 1;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 400px;
-  top: 50px;
-}
 
 .profile-pic {
   border-radius: 100%;
@@ -114,7 +123,7 @@ padding-top: 100px;
 }
 
 .copyright-color {
-  color: #EAF6F6;
+  color: #EFEFEF;
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -134,24 +143,24 @@ width: 50%;
 
 
 .contact-me {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
 
 .fun-fact {
   width: 50%;
-  margin: 75px auto 0 auto;
+  margin: 135px auto 0 auto;
 
 }
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: #205375;
+  background-image: -webkit-linear-gradient(top, #205375, #5C8FB1);
+  background-image: -moz-linear-gradient(top, #205375, #5C8FB1);
+  background-image: -ms-linear-gradient(top, #205375, #5C8FB1);
+  background-image: -o-linear-gradient(top, #205375, #5C8FB1);
+  background-image: linear-gradient(to bottom, #205375, #5C8FB1);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -163,12 +172,12 @@ width: 50%;
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #3498db);
-  background-image: -moz-linear-gradient(top, #30e3cb, #3498db);
-  background-image: -ms-linear-gradient(top, #30e3cb, #3498db);
-  background-image: -o-linear-gradient(top, #30e3cb, #3498db);
-  background-image: linear-gradient(to bottom, #30e3cb, #3498db);
+  background: #98CBED;
+  background-image: -webkit-linear-gradient(top, #98CBED, #3498db);
+  background-image: -moz-linear-gradient(top, #98CBED, #3498db);
+  background-image: -ms-linear-gradient(top, #98CBED, #3498db);
+  background-image: -o-linear-gradient(top, #98CBED, #3498db);
+  background-image: linear-gradient(to bottom, #98CBED, #3498db);
   text-decoration: none;
 }
 
